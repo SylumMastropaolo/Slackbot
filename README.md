@@ -1,7 +1,14 @@
+# About Me
+My name is Sylum Mastropaolo and I am a recent graduate from SUNY New Paltz with a Bachelors of Science in Computer Science. I am currently looking for a job as a software engineer. While searching for a job I am working on improving my skills and learning more to help me be the best that I can be.
+
+If you would like to contact me, feel free to send me an email at: sylum.mastropaolo@gmail.com
+
+If you want to know more about me, check out my [LinkedIn Profile](https://www.linkedin.com/in/sylum-mastropaolo-3ab375ab).
+
 # Description
 This repo is the code that I wrote while following the LinkedIn Learning course [Node.js: Build Your First Microservice](https://www.linkedin.com/learning/node-js-build-your-first-microservice).
 
-In this tutorial I learned about the importance of Microservices while creating a chat bot for Slack. 
+In this tutorial I built a microservice-based system using Node.js. This was important for me to learn because Node.js is widely used to implement microservices that consume and provied APIs. This tutorial showed me how to build a resilient, natural language-aware Slack bot with Node.js.
 
 ## Functionality
 
