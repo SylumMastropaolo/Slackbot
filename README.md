@@ -23,10 +23,11 @@ In the original tutorial, written by [Daniel Khan](https://www.linkedin.com/in/k
   - OpenCage allowed me to make a free account with up to 2500 requests a day/1 request a second without needing to enter my billing information.
   - In the tutorial you needed to nest two API calls when using Google's API to find the location and the timezone but with Opencage all of that information is one single API call.
 
-In order to protect my API keys I decided to remove them from this git repository and instead replaced it with a file where you can enter your own keys if you would like to use this yourself. This required a few quick changes.
-  - I added the file keys.js in the root folder.
-  - In each file where a key was needed I imported keys.js and then retreived the proper key from there.
-  - This allows for easy management of your API keys and also keeps them private for your personal use without the risk of someone else using your keys.
+`In order to protect my API keys I decided to remove them from this git repository and instead replaced it with a file where you can enter your own keys if you would like to use this yourself. This required a few quick changes.`
+  - `I added the file keys.js in the root folder.`
+  - `In each file where a key was needed I imported keys.js and then retreived the proper key from there.`
+  - `This allows for easy management of your API keys and also keeps them private for your personal use without the risk of someone else using your keys.`
+> `This alteration was undone in the second tutorial when another method of protecting keys was introduced`
 
 ### Tech
 
@@ -76,6 +77,7 @@ $ node bin/run.js
 ```
 
 ### Todos
+ - Complete the [next tutorial](https://www.linkedin.com/learning/node-js-extend-and-maintain-applications) written by [Daniel Kahn](https://www.linkedin.com/in/khandaniel/?trk=lil_course)
  - I would like to host this project somewhere so people can demo it on my Slack tutorial workspace without having to set it up themselves first.
  - Possibly add on more microservices.
  - Add a few more comments to help with understanding.

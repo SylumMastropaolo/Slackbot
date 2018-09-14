@@ -1,13 +1,14 @@
 'use strict';
 
+const config = require('../config');
+
 const express = require('express');
 const service = express();
 const request = require('superagent');
 const moment = require('moment');
-const keys = require('../../keys');
 
 service.get('/service/:location', (req, res, next) => {
-    request.get('https://api.opencagedata.com/geocode/v1/json?q=' + req.params.location + '&key=' + keys.opencageKey + '&limit=1&pretty=1', (err, response) => {
+    request.get('https://api.opencagedata.com/geocode/v1/json?q=' + req.params.location + '&key=' + config.opencageApiKey + '&limit=1&pretty=1', (err, response) => {
         if(err) {
             console.log(err);
             return res.sendStatus(500);
