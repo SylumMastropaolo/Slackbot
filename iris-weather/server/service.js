@@ -13,7 +13,7 @@ service.get('/service/:location', (req, res, next) => {
             return res.sendStatus(500);
         }
         res.json({result: `${response.body.weather[0].description} at ${response.body.main.temp} degrees fahrenheit`})
-    })
+    });
 
 });
 

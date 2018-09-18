@@ -10,8 +10,8 @@ describe('The express service', () => {
             request(service)
                 .get('/foo')
                 .expect(404, done);
-        })
-    })
+        });
+    });
 
     describe('GET /service/:location', () => {
         it('should return HTTP 200 and a reply with a valid result', (done) => {
@@ -22,7 +22,7 @@ describe('The express service', () => {
                     if (err) return done(err);
                     res.body.result.should.exist;
                     return done();
-                })
-        })
-    })
-})
+                });
+        });
+    });
+});
