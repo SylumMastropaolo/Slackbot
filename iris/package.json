@@ -7,6 +7,13 @@
     "test": "NODE_ENV=test eslint bin server && nyc mocha --recursive test",
     "start": "nodemon | ./node_modules/.bin/bunyan"
   },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SylumMastropaolo/Tutorial-NodeJS-Build-your-first-Microservice.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
