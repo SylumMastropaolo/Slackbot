@@ -21,8 +21,6 @@ module.exports = (config) => {
     
             res.json({result: timeString});
         });
-    
     });
     return service;
 };
-
